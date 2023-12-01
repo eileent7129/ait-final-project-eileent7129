@@ -1,0 +1,25 @@
+{
+  "name": "final-project-eileent7129",
+  "version": "1.0.0",
+  "description": "The content below is an example project proposal / requirements document. Replace the text below the lines marked \"__TODO__\" with details specific to your project. Remove the \"TODO\" lines.",
+  "main": "app.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyu-csci-ua-0467-001-002-fall-2023/final-project-eileent7129.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyu-csci-ua-0467-001-002-fall-2023/final-project-eileent7129/issues"
+  },
+  "homepage": "https://github.com/nyu-csci-ua-0467-001-002-fall-2023/final-project-eileent7129#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.2",
+    "react-router-dom": "^6.19.0"
+  }
+}

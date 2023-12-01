@@ -1,0 +1,33 @@
+/* navbar.css */
+
+header {
+	background-color: #333; /* Background color of the header */
+	padding: 10px; /* Padding around the header content */
+  }
+  
+  nav {
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+  }
+  
+  li {
+	margin-right: 20px; /* Adjust the spacing between list items */
+  }
+  
+  a {
+	text-decoration: none;
+	color: white; /* Text color of the links */
+	font-weight: bold; /* Font weight of the links */
+  }
+  
+  a:hover {
+	color: #ffcc00; /* Text color on hover */
+  }
+  

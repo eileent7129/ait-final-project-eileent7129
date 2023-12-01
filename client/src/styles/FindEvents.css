@@ -1,0 +1,19 @@
+.event-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-gap: 20px;
+  }
+
+  .button{
+	display: flex;
+	justify-content: center;
+  }
+
+  .custom-button {
+	background-color: #4caf50; /* Set your desired background color */
+	color: #fff; /* Set your desired text color */
+  }
+  
+  .custom-button:hover {
+	background-color: #45a049; /* Set hover background color */
+  }

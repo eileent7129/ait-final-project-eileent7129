@@ -1,0 +1,28 @@
+/* home.css */
+
+/* Styles for the ticket container */
+.tickets-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust the column width as needed */
+	gap: 20px; /* Adjust the gap between cards as needed */
+  }
+  
+  /* Styles for each ticket card */
+  .ticket-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #ddd;
+	padding: 15px;
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box-shadow */
+  }
+  
+  .ticket-card h3 {
+	font-size: 1.2em;
+	margin-bottom: 10px;
+  }
+  
+  /* Additional styling as needed */
+  
