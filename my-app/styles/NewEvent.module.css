@@ -1,0 +1,32 @@
+
+.events_card {
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	background-color: #fff;
+	transition: transform 0.2s ease-in-out;
+	margin: 10px;
+	width: 300px;
+	padding: 15px;
+	height: 250px;
+  }
+  
+  .events_card:hover {
+	transform: scale(1.05);
+  }
+  
+  .event_title {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	color: #333;
+	font-size: 1.5em;
+  }
+  
+  .event_details p {
+	margin: 5px 0;
+	color: #666;
+	font-size: 1em; 
+  }
+  
+  

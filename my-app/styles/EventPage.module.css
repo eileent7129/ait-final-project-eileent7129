@@ -1,0 +1,45 @@
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.event_details {
+  flex: 1;
+}
+
+.event_image {
+  flex: 1;
+  margin-left: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.event_desc {
+  margin-top: 20px;
+}
+
+.event_desc p {
+  line-height: 1.5;
+}
+
+.custom_button {
+  margin-top: 20px;
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.custom_button:hover {
+  background-color: #45a049;
+}
+
+.link {
+  color: #3498db;
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: #2d73b1;
+}

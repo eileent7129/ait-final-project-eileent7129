@@ -1,0 +1,17 @@
+@font-face{
+	font-family: Body;
+	src: url('../public/Inter.ttf');
+}
+
+.main{
+	display: flex;
+	gap: 1rem;
+	font-family: Body;
+	font-weight: bold;
+	font-size: 20px;
+	padding-left: 30px;
+	padding-top: 4rem;
+	width: 400px;
+	color: #F1F3F0;
+
+}

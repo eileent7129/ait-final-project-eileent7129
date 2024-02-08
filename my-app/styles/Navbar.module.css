@@ -1,0 +1,47 @@
+@font-face {
+  font-family: Logo;
+  src: url("../public/Candal-Regular.ttf");
+}
+
+@font-face {
+  font-family: Pages;
+  src: url("../public/Poppins-Regular.ttf");
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.list {
+  font-family: Pages;
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 10px;
+  color: #F1F3F0;
+}
+
+.list a {
+  text-decoration: none;
+  color: #F1F3F0;
+}
+
+.left {
+  font-family: Logo;
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 30px;
+  padding-left: 20px;
+  color: #F1F3F0;
+}
+
+.left a {
+  text-decoration: none;
+  color: #F1F3F0;
+}

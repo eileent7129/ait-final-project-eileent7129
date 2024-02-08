@@ -1,1 +1,1 @@
-# ait-final-project-eileent7129
+This is my final project for my Applied Internet Technology course.
